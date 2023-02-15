@@ -1,29 +1,16 @@
 {
   "name": "request-header-parser-microservice",
-  "version": "0.0.2",
-  "description": "API project for freeCodeCamp",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "API for FreeCodeCamp Backed Certification Project",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
+  "keywords": [],
+  "author": "Christotle Agholor",
+  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.18.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
-  },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
-  "keywords": [
-    "freeCodeCamp",
-    "node",
-    "express"
-  ],
-  "license": "MIT"
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
 }
